@@ -1,0 +1,22 @@
+- Good class, method, variable names.
+
+- Comments on all classes (not needed inside classes, just on the class level).
+    - Comments which are on one line should use the // style. 
+    - Comments which are or a couple lines may use either the //, or /* ... */ style.
+    - Comments which are many lines long should use /* ... */.
+
+- Inside a class, the fields must be at the top of the class, followed by the methods.
+
+- All strings which end user may see on UI (not LogCat) are in strings.xml.
+
+- All identifiers must have meaningful, human-readable, English names.
+
+- Constants must be all upper case, with multiple words separated by '_'.
+
+- Functions must start with a lower case letter, and use CamelCase. 
+
+- Class names must start with an upper case letter, and use CamelCase. 
+
+- DRY: Don't Repeat Yourself!
+
+- Use named constants instead of literal numbers 

@@ -1,0 +1,38 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:title="change time speed"
+        android:icon="@drawable/ic_baseline_speed_24"
+        app:showAsAction="always|withText">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/per25"
+                    android:title="25%"
+                    />
+                <item
+                    android:id="@+id/per75"
+                    android:title="75%"
+                    />
+                <item
+                    android:id="@+id/per100"
+                    android:title="100%"
+                    />
+                <item
+                    android:id="@+id/per200"
+                    android:title="200%"
+                    />
+                <item
+                    android:id="@+id/per300"
+                    android:title="300%"
+                    />
+                <item
+                    android:id="@+id/per400"
+                    android:title="400%"
+                    />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

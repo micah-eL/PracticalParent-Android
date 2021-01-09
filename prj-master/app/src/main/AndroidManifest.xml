@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.cmpt276.PracticalParent">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PracticalParent">
+        <activity android:name=".ui.SelectNumberOfBreaths"></activity>
+        <activity android:name=".ui.TakeBreathActivity" />
+        <activity android:name=".ui.HelpActivity" />
+        <activity android:name=".ui.AddTaskActivity" />
+        <activity android:name=".ui.SelectedTaskActivity" />
+        <activity android:name=".ui.TaskActivity" />
+        <activity android:name=".ui.OverrideFlipCoinActivity" />
+        <activity android:name=".ui.EditDeleteActivity" />
+        <activity android:name=".ui.HistoryActivity" />
+        <activity android:name=".ui.ChildrenActivity" />
+        <activity android:name=".ui.ChildrenDataActivity" />
+        <activity
+            android:name=".ui.TimeOutActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard"
+            android:launchMode="singleInstance" />
+        <activity android:name=".ui.FlipCoinActivity" />
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Practical Parent</string>
+
+    <string name="todo">TODO</string>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- MainActivity-->
+    <string name="history">History</string>
+    <string name="time_out">Time Out</string>
+    <string name="flip_coin">Flip Coin</string>
+    <string name="children">Children</string>
+    <string name="take_breath">Take Breath</string>
+
+    <!-- ChildrenDataActivity-->
+    <string name="string_etxt_name">Name</string>
+    <string name="etxt_name">Name</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_delete">Delete</string>
+    <string name="add_photo_from_album">ADD photo from album</string>
+    <string name="take_a_photo_by_camera">take a photo by camera</string>
+    <string name="saved_child">Saved!</string>
+    <string name="child_empty">"Child name empty, please type in the child name!"</string>
+
+    <!-- EditDeleteActivity-->
+    <string name="type_the_new_name_if_you_wish_to_edit">Type the new Name if you wish to edit</string>
+    <string name="delete">Delete</string>
+    <string name="selected_child_deleted">%1$s deleted!</string>
+    <string name="edit">Edit</string>
+    <string name="edited_toast">Edited!</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_edit">Cancel!</string>
+    <string name="selcted_child_info">selcted_child_info</string>
+    <string name="selected_child_name">Selected child: %1$s</string>
+    <string name="upload_photo_from_album">Upload photo from album</string>
+    <string name="take_a_photo">Take a photo</string>
+    <string name="photo_access_denied">You Denied Permission</string>
+    <string name="failed_to_get_image">Failed to get image!</string>
+
+    <!-- HistoryActivity-->
+    <string name="history1">history</string>
+    <string name="history2">History: </string>
+    <string name="toggle">toggle</string>
+    <string name="switch_to_current_child_flips">Switch to current child flips:</string>
+
+    <!-- FlipCoinActivity-->
+    <string name="heads_button">HEADS</string>
+    <string name="tails_button">TAILS</string>
+    <string name="coin_description">Coin</string>
+    <string name="no_children_configured">YOU HAVE NO CHILDREN SAVED!</string>
+    <string name="TV_initial_value">show current child here</string>
+    <string name="override_button">Override</string>
+    <string name="current_child_flipCoin">It\'s your turn %1$s !</string>
+    <string name="nobody_turn">Nobody\'s turn!</string>
+
+    <!-- TimeoutActivity-->
+    <string name="start">START</string>
+    <string name="pause">PAUSE</string>
+    <string name="Con">RESUME</string>
+    <string name="task">Task</string>
+    <string name="edit_photo">Edit Photo</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="textview">TextView</string>
+    <string name="help">help</string>
+    <string name="example_minutes">example 5 for 5 minutes</string>
+    <string name="time_duration">Time Duration</string>
+    <string name="minutes"> minutes</string>
+    <string name="zero">0</string>
+    <string name="empty">""</string>
+    <string name="zero_seconds">:00</string>
+    <string name="colon">:</string>
+    <string name="restart">RESET</string>
+    <string name="timeout">Timeout!</string>
+    <string name="timeLeft">%1$s:%2$s</string>
+    <string name="timeLessThanTen">%1$i%2$s</string>
+    <string name="timeGreaterThanOne">%1$s%2$i%3$s</string>
+    <string name="button_set_text">%1$i %2$s</string>
+
+    <!--AddTaskActivity Strings-->
+    <string name="task_name">Task name</string>
+    <string name="save">Save</string>
+    <string name="task_cancel">Cancel</string>
+    <string name="task_add">Saved task!</string>
+
+
+    <!--Help Activity Strings-->
+    <string name="help_title">Help</string>
+    <string name="group_name">- Denim Group\n</string>
+    <string name="developers">- Developed by Aida Kadiric, Ming Chen Zhang, Kimia Naghavi, and Micah Lau\n\n</string>
+    <string name="lbl_image_citations">Images Citation:\n</string>
+    <string name="blue_branches_link">- blue_branches:\n- https://www.pinterest.ca/pin/586945763926753185 \n\n</string>
+    <string name="branches_link">- branches: \n- https://www.pinterest.ca/pin/690880399067962528 \n\n</string>
+    <string name="layer_colourful_link">- layer_colourful:\n- https://www.pinterest.ca/pin/369928556878675315 \n\n</string>
+    <string name="winter_trees_link">- winter_trees:\n- https://www.pinterest.ca/pin/718113103074917366 \n\n</string>
+    <string name="view_link">- view:\n- https://www.pinterest.ca/pin/489977634460645848 \n\n</string>
+    <string name="sunset_link">- sunset:\n- https://www.pinterest.ca/pin/673288213020427704 \n\n</string>
+    <string name="green_link">- green:\n- https://www.pinterest.ca/pin/823455113108371335 \n\n</string>
+    <string name="lbl_sound_citations">Sound Citation:\n</string>
+    <string name="coin_sound_link">- sound:\n- https://www.partnersinrhyme.com/soundfx/office_sounds/office_coin-flip_wav.shtml \n\n</string>
+    <string name="inhale_sound_link">- sound:\n- https://freesound.org/people/InspectorJ/sounds/346771/ \n\n</string>
+    <string name="exhale_sound_link">- sound:\n- https://freesound.org/people/InspectorJ/sounds/361529/ \n\n</string>
+
+    <string name="sound_link">- sound:\n- https://www.partnersinrhyme.com/soundfx/office_sounds/office_coin-flip_wav.shtml \n\n</string>
+    <string name="animation_link">- animation:\n https://www.youtube.com/watch?v=_lmRQB58r-U&amp;ab_channel=android-coffee.com \n\n</string>
+
+    <!--OverrideFlipCoin Strings-->
+    <string name="choose_which_child_is_next_n_click_nobody_s_turn_to_flip_the_coin_without_selecting_a_child">Choose which child is next.\n Click \'Nobody\'s turn\' to flip the coin without selecting a child.</string>
+    <string name="nobody_s_turn">Nobody\'s turn</string>
+
+    <!--SelectedTask Activity Strings-->
+    <string name="child_name_task"></string>
+    <string name="had_turn">had turn</string>
+    <string name="type_the_new_task_name_if_you_wish_to_edit">type the new task name if you wish to edit</string>
+    <string name="selected_task_is">Selected Task is: %1$s</string>
+    <string name="no_children_saved">You have no children saved!</string>
+    <string name="exclamation">!</string>
+    <string name="your_turn">It is your turn %1$s!</string>
+    <string name="resume">resume</string>
+    <string name="had_turn_task">%1$s had their turn!</string>
+    <string name="deleted_task"> Deleted!</string>
+    <string name="canceled_task">Canceled!</string>
+    <string name="edited_task">Edited!</string>
+    <string name="no_tasks_typed">You have not typed a new task!</string>
+
+    <!--Task Activity Strings-->
+    <string name="task_name_title">taskTitle</string>
+    <string name="next_child">childTitle</string>
+    <string name="select_number_of_breaths_to_take">Select number of breaths to take:</string>
+
+    <!--TakeBreath Activity-->
+    <string name="take_breath_text">Take Breath</string>
+    <string name="take_breath_btn">Take Breath</string>
+    <string name="that_was_10_sec">That was 10 seconds - breathe in please!</string>
+    <string name="breathe_out_toast">Button released: Breathe out!</string>
+    <string name="breathe_in_toast">Hold Button and breathe in!</string>
+    <string name="good_job">Good Job!</string>
+    <string name="out">OUT</string>
+    <string name="taking_breath_number">You are taking breath number : %1$s</string>
+
+
+
+
+</resources>
